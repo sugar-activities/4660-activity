@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="Muestra">
+    <voice defaultVoiceName=""/>
+    <initial_board>board_0</initial_board>
+    <board name="board_0">
+        <model>
+            <attributes>
+                <attribute key="orderedCellList" type="list">
+                    <element>cell_0</element>
+                    <element>cell_1</element>
+                    <element>cell_16</element>
+                    <element>cell_17</element>
+                    <element>cell_2</element>
+                    <element>cell_3</element>
+                </attribute>
+                <attribute key="backgroundColor" type="color">ff3465a4</attribute>
+                <attribute key="unorderedCellList" type="list">
+                    <element>cell_19</element>
+                </attribute>
+                <attribute key="imageResizeStyle" type="integer">0</attribute>
+                <attribute key="size" type="size">
+                    <width>1024.0</width>
+                    <height>600.0</height>
+                </attribute>
+            </attributes>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_0</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\6522.png</attribute>
+                    <attribute key="text" type="string">HOLA</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">Hola</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>11.0</x>
+                        <y>28.0</y>
+                        <width>190.0</width>
+                        <height>192.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_1</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\6625_1.png</attribute>
+                    <attribute key="text" type="string">¿CÓMO ESTÁS?</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">¿Cómo estás?</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>271.0</x>
+                        <y>28.0</y>
+                        <width>190.0</width>
+                        <height>192.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="followingBoard" type="string">board_1</attribute>
+                    <attribute key="id" type="string">cell_2</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2684.png</attribute>
+                    <attribute key="text" type="string">ESTOY...</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">Yo estoy</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>519.0</x>
+                        <y>305.0</y>
+                        <width>202.0</width>
+                        <height>185.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ff73d216</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="followingBoard" type="string">board_2</attribute>
+                    <attribute key="id" type="string">cell_3</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\5441.png</attribute>
+                    <attribute key="text" type="string">QUIERO...</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">Quiero</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>779.0</x>
+                        <y>305.0</y>
+                        <width>202.0</width>
+                        <height>186.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">fffcaf3e</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_16</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\6632_1.png</attribute>
+                    <attribute key="text" type="string">ME LLAMO...</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">Me llamo ántony</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>531.0</x>
+                        <y>28.0</y>
+                        <width>190.0</width>
+                        <height>192.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_17</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\7061.png</attribute>
+                    <attribute key="text" type="string">¿CÓMO TE LLAMAS?</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">¿Cómo te llamas?</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>791.0</x>
+                        <y>28.0</y>
+                        <width>190.0</width>
+                        <height>192.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_19</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\teleton.png</attribute>
+                    <attribute key="text" type="string"/>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">Teletón Uruguay</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>86.0</x>
+                        <y>304.0</y>
+                        <width>237.0</width>
+                        <height>237.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+        </model>
+    </board>
+    <board name="board_1">
+        <model>
+            <attributes>
+                <attribute key="orderedCellList" type="list">
+                    <element>cell_4</element>
+                    <element>cell_5</element>
+                    <element>cell_12</element>
+                    <element>cell_11</element>
+                    <element>cell_6</element>
+                    <element>cell_7</element>
+                    <element>cell_13</element>
+                    <element>cell_14</element>
+                    <element>cell_8</element>
+                    <element>cell_9</element>
+                    <element>cell_10</element>
+                    <element>controller_cell_0</element>
+                </attribute>
+                <attribute key="backgroundColor" type="color">ff73d216</attribute>
+                <attribute key="unorderedCellList" type="list"/>
+                <attribute key="imageResizeStyle" type="integer">0</attribute>
+                <attribute key="size" type="size">
+                    <width>1024.0</width>
+                    <height>600.0</height>
+                </attribute>
+            </attributes>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_4</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\3250.png</attribute>
+                    <attribute key="text" type="string">FELIZ</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">feliz</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>19.0</x>
+                        <y>15.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_5</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2606.png</attribute>
+                    <attribute key="text" type="string">TRISTE</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">triste</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>291.3333333333333</x>
+                        <y>15.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_6</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\24735.png</attribute>
+                    <attribute key="text" type="string">DIVERTIDO</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">Divertido</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>19.0</x>
+                        <y>215.5</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_7</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2245.png</attribute>
+                    <attribute key="text" type="string">ABURRIDO</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">Aburrido</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>291.3333333333333</x>
+                        <y>215.5</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_8</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2401.png</attribute>
+                    <attribute key="text" type="string">CON FRÍO</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">con frío</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>19.0</x>
+                        <y>416.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_9</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2300.png</attribute>
+                    <attribute key="text" type="string">CALOR</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">con calor</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>291.3333333333333</x>
+                        <y>416.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_10</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2314.png</attribute>
+                    <attribute key="text" type="string">SUEÑO</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">con sueño</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>563.6666666666666</x>
+                        <y>416.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_11</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2367.png</attribute>
+                    <attribute key="text" type="string">DOLOR</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">con dolor</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>836.0</x>
+                        <y>15.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_12</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2374.png</attribute>
+                    <attribute key="text" type="string">ENOJADO</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">enojado</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>563.6666666666666</x>
+                        <y>15.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_13</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\4962.png</attribute>
+                    <attribute key="text" type="string">HAMBRE</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">con hambre</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>563.6666666666666</x>
+                        <y>215.5</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_14</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\8662.png</attribute>
+                    <attribute key="text" type="string">PREOCUPADO</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">preocupado</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>836.0</x>
+                        <y>215.5</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="controllerCell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">controller_cell_0</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\controller-home.png</attribute>
+                    <attribute key="text" type="string">Inicio</attribute>
+                    <attribute key="actionCode" type="integer">7</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>836.0</x>
+                        <y>416.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                </attributes>
+            </component>
+        </model>
+    </board>
+    <board name="board_2">
+        <model>
+            <attributes>
+                <attribute key="orderedCellList" type="list">
+                    <element>cell_4</element>
+                    <element>cell_5</element>
+                    <element>cell_12</element>
+                    <element>cell_11</element>
+                    <element>cell_6</element>
+                    <element>cell_7</element>
+                    <element>cell_13</element>
+                    <element>cell_14</element>
+                    <element>cell_8</element>
+                    <element>cell_9</element>
+                    <element>cell_10</element>
+                    <element>controller_cell_0</element>
+                </attribute>
+                <attribute key="backgroundColor" type="color">fffcaf3e</attribute>
+                <attribute key="unorderedCellList" type="list"/>
+                <attribute key="imageResizeStyle" type="integer">0</attribute>
+                <attribute key="size" type="size">
+                    <width>1024.0</width>
+                    <height>600.0</height>
+                </attribute>
+            </attributes>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_4</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2349.png</attribute>
+                    <attribute key="text" type="string">COMER</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">comer</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>19.0</x>
+                        <y>15.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_5</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2430.png</attribute>
+                    <attribute key="text" type="string">IR AL BAÑO</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">ir al baño</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>291.3333333333333</x>
+                        <y>15.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_6</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\6537.png</attribute>
+                    <attribute key="text" type="string">JUGAR</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">jugar</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>19.0</x>
+                        <y>215.5</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_7</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2587.png</attribute>
+                    <attribute key="text" type="string">VER TELE</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">ver tele</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>291.3333333333333</x>
+                        <y>215.5</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_8</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2586.png</attribute>
+                    <attribute key="text" type="string">USAR EL TELÉFONO</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">usar el teléfono</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>19.0</x>
+                        <y>416.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_9</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\5957_1.png</attribute>
+                    <attribute key="text" type="string">ir a casa</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">ir a casa</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>291.3333333333333</x>
+                        <y>416.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_10</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\25191.png</attribute>
+                    <attribute key="text" type="string">LEER</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">leer</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>563.6666666666666</x>
+                        <y>416.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_11</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2304_1.png</attribute>
+                    <attribute key="text" type="string">DORMIR</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">dormir</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>836.0</x>
+                        <y>15.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_12</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2370.png</attribute>
+                    <attribute key="text" type="string">BAÑARME</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">bañarme</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>563.6666666666666</x>
+                        <y>15.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_13</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\24795.png</attribute>
+                    <attribute key="text" type="string">ESCUCHAR MUSICA</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">escuchar música</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>563.6666666666666</x>
+                        <y>215.5</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="cell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">cell_14</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\2487.png</attribute>
+                    <attribute key="text" type="string">COMPUTADORA</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="voiceText" type="string">usar la computadora</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>836.0</x>
+                        <y>215.5</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                    <attribute key="accumulated" type="boolean">false</attribute>
+                </attributes>
+            </component>
+            <component type="controllerCell">
+                <attributes>
+                    <attribute key="font" type="font">
+                        <family>Arial</family>
+                        <size>12</size>
+                    </attribute>
+                    <attribute key="alternativeBorderColor" type="color">ffff0000</attribute>
+                    <attribute key="id" type="string">controller_cell_0</attribute>
+                    <attribute key="verticalTextPosition" type="integer">3</attribute>
+                    <attribute key="alternativeLinewidth" type="integer">4</attribute>
+                    <attribute key="linewidth" type="float">1.0</attribute>
+                    <attribute key="icon" type="icon">image\controller-home_1.png</attribute>
+                    <attribute key="text" type="string">Inicio</attribute>
+                    <attribute key="actionCode" type="integer">7</attribute>
+                    <attribute key="foregroundColor" type="color">ff000000</attribute>
+                    <attribute key="bordercolor" type="color">ff000000</attribute>
+                    <attribute key="bounds" type="rectangle">
+                        <x>836.0</x>
+                        <y>416.0</y>
+                        <width>168.0</width>
+                        <height>158.0</height>
+                    </attribute>
+                    <attribute key="backgroundColor" type="color">ffffffff</attribute>
+                </attributes>
+            </component>
+        </model>
+    </board>
+</project>

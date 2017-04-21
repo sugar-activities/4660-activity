@@ -1,0 +1,9 @@
+[Activity]
+name = TIXO
+bundle_id = org.teleton.ingenieria.TIXO
+exec = sugar-activity Tixo.Tixo
+icon = Activity-Tixo
+activity_version = 2
+license = GPLv3+
+show_launcher = yes
+mime_types =  application/octet-stream
